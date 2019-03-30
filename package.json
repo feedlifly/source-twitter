@@ -1,5 +1,5 @@
 {
-  "name": "@feedlifly/source-twitter",
+  "name": "@feedlify/source-twitter",
   "version": "0.0.0",
   "description": "Retrieves a Twitter public data",
   "main": "lib/index.js",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feedlifly/source-twitter.git"
+    "url": "git+https://github.com/feedlify/source-twitter.git"
   },
   "keywords": [
-    "feedlifly",
+    "feedlify",
     "source",
     "twitter"
   ],
   "author": "Marco Pegoraro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/feedlifly/source-twitter/issues"
+    "url": "https://github.com/feedlify/source-twitter/issues"
   },
-  "homepage": "https://github.com/feedlifly/source-twitter#readme",
+  "homepage": "https://github.com/feedlify/source-twitter#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
