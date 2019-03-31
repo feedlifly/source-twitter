@@ -8,7 +8,7 @@ export const fetchTimeline = async (config) => {
     const exclude = config.exclude || []
 
     return (await scrapeTimeline(source, limit))
-        .slice(0, limit)
         .filter(applyExcludeRules(exclude))
+        .slice(0, limit)
         .map(tweetDataType)
 }
